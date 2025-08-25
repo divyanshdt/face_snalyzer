@@ -21,7 +21,7 @@ if api_key:
                 "Analyze this face and provide a detailed description of eyes, nose, mouth, "
                 "face shape, and any unique features. Then give a rating from 1 to 10 based on overall facial features.",
                 image])
-        st.subheader("📝 Gemini Analysis & Rating")
+        st.subheader("📝 My analysis and rating")
         st.write(response.text)
 
 
