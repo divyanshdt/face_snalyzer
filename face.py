@@ -16,7 +16,7 @@ if api_key:
         st.image(image,caption='image uploaded' ,use_column_width=True)
         st.write('analyzing photo.....')
         response = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash",
             contents=[
                 "Analyze this face and provide a detailed description of eyes, nose, mouth, "
                 "face shape, and any unique features. Then give a rating from 1 to 10 based on overall facial features.",
